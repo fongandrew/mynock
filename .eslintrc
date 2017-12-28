@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": [
+        "src/**/*.test.*",
+        "src/examples.jsx",
+        "src/setup-dom.js"
+      ]
+    }],
+    "prefer-rest-params": 0,
+    "no-inner-declarations": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-multi-comp": 0
+  }
+}
