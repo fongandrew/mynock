@@ -1,6 +1,7 @@
 # Mynock
 
 [![Build Status](https://travis-ci.org/fongandrew/mynock.svg?branch=master)](https://travis-ci.org/fongandrew/mynock)
+[![npm version](https://badge.fury.io/js/mynock.svg)](https://badge.fury.io/js/mynock)
 
 A simple wrapper to make stubbing / mocking / faking / spying on exported
 functions (including class constructors) a little easier.
