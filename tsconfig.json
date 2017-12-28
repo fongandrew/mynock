@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": ["dom", "es6"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude":[
+    "node_modules"
+  ]
+}
